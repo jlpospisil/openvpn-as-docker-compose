@@ -14,6 +14,5 @@ services:
       - ./data/config:/config
     ports:
       - 943:943
-      - 9443:9443
-      - 1194:1194/udp
+      - 8443:8443
     restart: always
